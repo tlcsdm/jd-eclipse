@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.jd.ide.eclipse.feature"
-      label="JD-Eclipse Plug-in"
-      version="2.0.0"
-      provider-name="Java Decompiler"
+      label="Tlcsdm JD-Eclipse Plug-in"
+      version="2.0.1"
+      provider-name="Java Decompiler &amp; Tlcsdm"
       plugin="org.jd.ide.eclipse.plugin">
 
    <description url="http://www.example.com/feature">
@@ -12,6 +12,7 @@
 
    <copyright>
       Copyright (c) 2008, 2019  Emmanuel Dupuy
+Copyright (c) 2025 Tlcsdm
    </copyright>
 
    <license url="http://www.gnu.org/licenses/gpl-3.0.html">
@@ -82,9 +83,6 @@ Public License instead of this License.  But first, please read
 
    <plugin
          id="org.jd.ide.eclipse.plugin"
-         download-size="0"
-         install-size="0"
-         version="2.0.0"
-         unpack="false"/>
+         version="2.0.1"/>
 
 </feature>
