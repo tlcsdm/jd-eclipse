@@ -31,7 +31,7 @@ public class JavaDecompilerPlugin extends AbstractUIPlugin {
 	private static final String EDITOR_ID = PLUGIN_ID + ".editors.JDClassFileEditor";	
 	
 	// Versions
-	public static final String VERSION_JD_ECLIPSE = "2.0.0";
+	public static final String VERSION_JD_ECLIPSE = "2.0.1";
 	public static final String VERSION_JD_CORE    = "1.0.7";
 
 	// Preferences

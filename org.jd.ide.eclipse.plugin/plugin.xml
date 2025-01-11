@@ -8,10 +8,9 @@
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            category="org.eclipse.jdt.ui.preferences.JavaBasePreferencePage"
             class="org.jd.ide.eclipse.preferences.PreferencePage"
             id="org.jd.ide.eclipse.preferences.PreferencePage"
-            name="Decompiler">
+            name="Tlcsdm Java Decompiler">
       </page>
    </extension>
    <extension
