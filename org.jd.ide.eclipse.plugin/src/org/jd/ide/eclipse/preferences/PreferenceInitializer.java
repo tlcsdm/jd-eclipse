@@ -25,8 +25,8 @@ public class PreferenceInitializer extends AbstractPreferenceInitializer {
 	public void initializeDefaultPreferences() {
 		IPreferenceStore store = JavaDecompilerPlugin.getDefault().getPreferenceStore();
 		store.setDefault(JavaDecompilerPlugin.PREF_ESCAPE_UNICODE_CHARACTERS, false);
-		store.setDefault(JavaDecompilerPlugin.PREF_REALIGN_LINE_NUMBERS, true);
-		store.setDefault(JavaDecompilerPlugin.PREF_SHOW_LINE_NUMBERS, true);
-		store.setDefault(JavaDecompilerPlugin.PREF_SHOW_METADATA, true);
+		store.setDefault(JavaDecompilerPlugin.PREF_REALIGN_LINE_NUMBERS, false);
+		store.setDefault(JavaDecompilerPlugin.PREF_SHOW_LINE_NUMBERS, false);
+		store.setDefault(JavaDecompilerPlugin.PREF_SHOW_METADATA, false);
 	}
 }
